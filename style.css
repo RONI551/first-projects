@@ -1,0 +1,134 @@
+body{
+    margin-left: 0px;
+margin-right: 0px;
+margin-top: 0px;
+margin-bottom: 0px;
+background-color: powderblue;
+
+    
+}
+
+.nav{
+    background-color: pink;
+    text-align: center;
+    }
+    .nav a{
+        list-style-type: none;
+        display: inline-block;
+        font-size: 20px;
+        font-weight: 600;
+        /* background-color: blueviolet; */
+        padding: 5px;
+        margin: 20px;
+        text-decoration: none;
+        color: #DB9A64;
+            }
+
+    .nav a:hover{
+        background-color: cadetblue;
+        border-radius: 20px;
+    }
+
+section{
+    display: flex;
+}
+h1{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    color: #575757;
+    
+}
+p{
+    color: gray;
+    font-size: 20px;
+}
+
+.orange-color{
+    color: #FB9149;
+}
+.half-width{
+    width: 50%;
+    padding-left: 40px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-right: 0px;
+}
+
+.half-width img{
+                width: 85%;
+                padding-left: 0px;
+                padding-top: 28px;
+                padding-bottom: 86px;
+                padding-right: 0px;
+                
+            }
+.link-button{
+    text-decoration: none;
+background: linear-gradient(45deg, lightsalmon, tomato);
+padding: 10px 40px;
+border-radius: 5px;
+color: white;
+font-weight: 700;
+}
+.center{
+    text-align: center;
+}
+
+.img-border{
+    border-radius: 50px;
+    
+}
+
+.box-shadow{
+  box-shadow: 25px 2px 40px rgb(72, 83, 83);
+            width: 60%;
+            margin-left: 20px;
+            margin-right: 20px;
+            margin-top: 20px;
+            margin-bottom: 0px;
+            padding-left: 20px;
+            padding-top: 20px;
+            padding-bottom: 0px;
+            padding-right: 0px;
+            border-radius: 0px;
+}
+#achivement{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, lightsalmon, tomato);
+    border-image-slice: 1; 
+}
+#our-class{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1;
+}
+#about{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, rgb(255, 0, 0), rgb(52, 156, 69));
+    border-image-slice: 1;
+}
+   footer{
+    text-align: center;
+    border: 10px solid;
+    padding-bottom: 20px;
+    background-color: #0B0D17;
+   }
+
+   h3{
+    color: #5B5B5B;
+    font-family: cursive;
+    font-size: 20px;
+    font-weight: 700;
+    
+}
+
+.color-with-font{
+    color: #FB9149;
+    
+}
+#small-text-color-p{
+    font-size: 14px;
+    color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
